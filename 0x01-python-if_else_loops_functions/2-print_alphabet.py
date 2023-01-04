@@ -1,1 +1,3 @@
-print(''.join(chr(i) for i in range(ord('a'), ord('z')+1)), end='')
+#!/usr/bin/python3
+for ch in range(97, 123):
+    print("ASCII value: " + str(ch) + ", Character: ", chr(ch))
